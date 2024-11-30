@@ -6,7 +6,7 @@ const OutputCard: React.FC<OutputCardProps> = ({ icon, title, isSelected, onClic
   return (
     <div 
       onClick={onClick}
-      className={`relative w-[250px] h-[180px] rounded-lg cursor-pointer transition-all duration-300 ${
+      className={`relative w-[300px] h-[200px] rounded-lg cursor-pointer transition-all duration-300 ${
         isSelected 
           ? 'bg-[#2a2a2a] border-[1px] border-purple-500' 
           : 'bg-[#2a2a2a] hover:border-[1px] hover:border-purple-500'

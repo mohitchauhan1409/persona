@@ -70,7 +70,7 @@ function App(): JSX.Element {
         </div>
 
         <div className="flex justify-center">
-          <button className="bg-[#8240E4] hover:bg-[#6e35c3] text-white px-8 py-3 rounded-2xl text-lg font-medium transition-colors duration-300">
+          <button className="bg-[#8240E4] hover:bg-[#6e35c3] text-white px-8 py-3 rounded-xl text-lg font-medium transition-colors duration-300">
             Start Creating Persona
           </button>
         </div>
@@ -78,3 +78,4 @@ function App(): JSX.Element {
     </div>
   );
 }
+export default App;
