@@ -1,4 +1,5 @@
-import  { useState } from 'react';
+import { useState } from 'react';
+import { Link } from '@tanstack/react-router';
 import Header from './components/Header';
 import OutputCard from './components/OutputCard';
 import VideoIcon from './components/icons/VideoIcon';
@@ -70,12 +71,16 @@ function App(): JSX.Element {
         </div>
 
         <div className="flex justify-center">
-          <button className="bg-[#8240E4] hover:bg-[#6e35c3] text-white px-8 py-3 rounded-xl text-lg font-medium transition-colors duration-300">
+          <Link 
+            to="/create"
+            className="bg-[#8240E4] hover:bg-[#6e35c3] text-white px-8 py-3 rounded-xl text-lg font-medium transition-colors duration-300"
+          >
             Start Creating Persona
-          </button>
+          </Link>
         </div>
       </div>
     </div>
   );
 }
+
 export default App;
